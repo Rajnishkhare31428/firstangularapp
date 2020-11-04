@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-xroot',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -10,10 +10,8 @@ export class AppComponent {
   title = 'myfirstangularproject';
   myName = 'Rajnish khare';
   constructor() {
-    alert('Constructor function called' + ++this.value);
    }
 
   ngOnInit(): void {
-    alert('ngOnInit function called' + ++this.value);
   }
 }
